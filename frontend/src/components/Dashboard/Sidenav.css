@@ -1,0 +1,50 @@
+.main-container{
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.bg1{
+  background: rgb(255,119,173);
+background: linear-gradient(177deg, rgba(255,119,173,1) 0%, rgba(254, 195, 210, 0.687) 100%);
+}
+
+.bg2{
+  background: rgb(103,194,177);
+background: linear-gradient(177deg, rgba(103,194,177,1) 10%, rgba(156, 233, 243, 0.788) 100%);
+}
+
+.bg3{
+  background: rgb(176,138,179);
+background: linear-gradient(177deg, rgba(176,138,179,1) 40%, rgba(212, 176, 212, 0.773) 100%);
+}
+
+.bg4{
+  background: rgb(166,166,166);
+background: linear-gradient(177deg, rgba(166,166,166,1) 40%, rgba(215, 215, 215, 0.728) 100%);
+}
+
+.bg5{
+ 
+  background: rgb(251,148,127);
+background: linear-gradient(177deg, rgba(251,148,127,1) 40%, rgba(255, 211, 183, 0.758) 100%);
+}
+
+.bg6{
+  background: rgb(249,194,85);
+background: linear-gradient(177deg, rgba(249,194,85,1) 40%, rgba(246, 234, 102, 0.754) 100%);
+}
+
+.active div{
+  background-color: #FF9F07;
+  border-radius: 10px;
+  color: white;
+  
+}
+
+.black .white{
+  display: none;
+}
+
+.white .black{
+  
+  display: none;
+}

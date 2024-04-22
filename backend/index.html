@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Registration Form</title>
+</head>
+<body>
+    <h2>User Registration Form</h2>
+    <form action="http://localhost:8080/api/auth/register" method="post">
+        <label for="user_email">Email:</label><br>
+        <input type="email" id="user_email" name="user_email" required><br><br>
+
+        <label for="user_location">Location:</label><br>
+        <input type="text" id="user_location" name="user_location" required><br><br>
+
+        <!-- <label for="user_info">User Info:</label><br>
+        <textarea id="user_info" name="user_info" rows="4" required></textarea><br><br> -->
+
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" name="password" required><br><br>
+
+        <label for="vehicle_info">Vehicle Info:</label><br>
+        <input type="text" id="vehicle_info" name="vehicle_info"><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
